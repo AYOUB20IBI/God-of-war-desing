@@ -1,0 +1,115 @@
+:root{
+    --ayoub:#39d5ea;
+}
+@font-face{
+    font-family: GAMING;
+    src: url(font/Endgame\ DEMO.otf);
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)),url(img/GodBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100VH;
+}
+.bg{
+    background: none;
+}
+.one{
+    background-color: #00000082;
+}
+.error{
+    height: 100vh;
+}
+.opps{
+    margin-top: -15%;
+}
+.opps-center h2{
+    font-family: GAMING;
+}
+.navbar{
+    position: fixed;
+    z-index: 100000000;
+}
+.navbar-toggler{
+    background-color: #39d5ea;
+    box-shadow: 2PX 2PX 12PX #39d5ea;
+}
+.navbar-brand{
+    width: 30%;
+}
+.nav-link{
+    color: #FFF;
+    
+}
+.nav-item:hover{
+    border-bottom: 2px solid var(--ayoub);
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: var(--ayoub);
+    transition: 0.3s;
+}
+.BAA{
+    background: NONE;
+    outline: NONE;
+    padding: 15PX;
+    border-radius: 50PX;
+    border: 3PX solid var(--ayoub);
+    font-size: 20PX;
+    letter-spacing: 2PX;
+    color: var(--ayoub);
+}
+.BAA:hover{
+    cursor: pointer;
+    background-color:#39d5ea9c;
+    color: #FFF;
+}
+.landing{
+    height: 86VH;
+    padding-left: 9%;
+}
+h1{
+    font-size: 4REM;
+    font-weight: 300;
+    margin-bottom: 30PX;
+}
+.PARA{
+    width:75%;
+    margin-bottom: 30PX;
+}
+.ANA{
+    font-size: 100PX;
+    font-family: fantasy;
+    letter-spacing: 6PX;
+}
+
+@media (max-width: 900px){
+    body{
+        background-image:url(img/GodBGMob.png);
+    }
+    .navbar{
+        background-color: #00000082;
+    }
+    .nav-item:hover{
+        background-color: var(--ayoub);
+        border-radius: 5px;
+    }
+    .nav-link:hover{
+        color: black;
+    }
+    .gif-img{
+        margin-top: -25%;
+        width:100%;
+    }
+    .opps{
+        margin-top: -60%;
+    }
+    .ANA{
+        font-size: 57PX;
+    }
+}
+
+
+
+
+

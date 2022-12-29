@@ -1,0 +1,280 @@
+:root{
+    --ayoub:#39d5ea;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #FFF;
+}
+@font-face{
+    font-family: GAMING;
+    src: url(font/Endgame\ DEMO.otf);
+}
+body{
+    background-color: #000000e6;
+}
+.navbar{
+    position: fixed;
+    z-index: 100000000;
+}
+.navbar-toggler{
+    background-color: #39d5ea;
+    box-shadow: 2PX 2PX 12PX #39d5ea;
+}
+.navbar-brand{
+    width: 30%;
+}
+.nav-link{
+    color: #FFF;
+    
+}
+.nav-item:hover{
+    border-bottom: 2px solid var(--ayoub);
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: var(--ayoub);
+    transition: 0.3s;
+}
+
+.center {
+    HEIGHT: 100VH;
+    WIDTH: 100%;
+    POSITION: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 120VH;
+}
+
+.title{
+    font-size: 10rem;
+    FONT-FAMILY: GAMING;
+    COLOR: var(--ayoub);
+    letter-spacing: 10PX;
+    filter: drop-shadow(4px 4px 22px black);
+    margin-bottom: 5%;
+}
+span{
+    font-family: GAMING;
+}
+.downlond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ayoub);
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 35%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.ent p{
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+.cat{
+    padding: 3rem !important;
+}
+
+.TITRE{
+    margin-bottom: 20PX;
+    font-size: 2rem;
+}
+.TITRE:hover{
+    background-color: #39d5ea67;
+    border-radius: 5PX;
+}
+.TOP h3{
+    margin-top: 25PX;
+    margin-bottom: 25PX;
+    color: var(--ayoub);
+}
+.TOP p{
+    line-height: 25PX;
+    margin-bottom: 20PX;
+    width: 95%;
+}
+.list-image{
+    width: 135%;
+}
+
+
+
+.BAA{
+    background: NONE;
+    outline: NONE;
+    padding: 15PX;
+    border-radius: 50PX;
+    border: 3PX solid var(--ayoub);
+    font-size: 20PX;
+    letter-spacing: 2PX;
+    color: var(--ayoub);
+}
+.BAA:hover{
+    cursor: pointer;
+    background-color:#39d5ea9c;
+    color: #FFF;
+}
+.landing{
+    height: 86VH;
+    padding-left: 9%;
+}
+h1{
+    font-size: 4REM;
+    font-weight: 300;
+    margin-bottom: 30PX;
+}
+p{
+    width:75%;
+    margin-bottom: 30PX;
+}
+
+
+.POSTER{
+    width: 23%;
+    float: left;
+    margin: 15PX;
+    border-radius: 20PX;
+}
+.POSTER2{
+    width: 100%;
+}
+.vedie-center{
+    width: 100%;
+    border-bottom: 2px solid var(--ayoub);
+}
+.SAID{
+    padding: 1rem!important;
+}
+
+
+
+
+#chek{
+    display: none;
+}
+.heden{
+    display: none;
+}
+label{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--ayoub);
+    border-radius: 10PX;
+    MARGIN-TOP: 25PX;
+    COLOR: var(--ayoub);
+}
+label:hover{
+    background-color: #39d5ea7a;
+    color: #FFF;
+}
+#chek:checked ~ .heden{
+    display: block;
+}
+.down{
+    text-decoration: none;
+    background-color: rgb(104, 255, 104);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10PX;
+    margin-top: 20PX;
+}
+
+
+@media (max-width: 900px){
+    .navbar{
+        background-color: #00000082;
+    }
+    .nav-item:hover{
+        background-color: var(--ayoub);
+        border-radius: 5px;
+    }
+    .nav-link:hover{
+        color: black;
+    }
+    .back-video{
+        width: NONE;
+    }
+    .ent p{
+        MARGIN-TOP: -5PX;
+    }
+    .cat{
+        display: block;
+        padding: 2rem !important;
+    }
+    .title{
+        font-size: 7rem;
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+    .downlond{
+        width: 70%;
+        margin-left: 14%;
+    }
+    .TOP{
+        width: 74%;
+    }
+    .TOP p{
+        margin-bottom: 10PX;
+        width: 135%;
+        FONT-SIZE: 10PX;
+        LINE-HEIGHT: 15PX;
+    }
+    .TOP H3{
+        width: 137%;
+        margin: 0;
+    }
+    .TITRE{
+        font-size: 24PX;
+    }
+    .list-image img{
+        margin-bottom: 15%;
+        width: 100%;
+    }
+    .car{
+        height: 65VH;
+    }
+    .POSTER{
+        width: 55%;
+    }
+    .POSTER2{
+        width: 140%;
+    }
+    .vedie-center{
+        width: 140%;
+    }
+    .games{
+        width: 50%;
+    }
+    .SAID{
+        padding: 0rem!important;
+    }
+    .table{
+        width: 140%;
+    }
+    label{
+        margin-bottom: 20PX;
+        width: 140%;
+    }
+    .down{
+        width: 140%;
+    }
+
+}
+
